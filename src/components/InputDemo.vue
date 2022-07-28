@@ -3,7 +3,7 @@ import { Input } from "element-ui";
 export default {
   comments: { Input },
   render() {
-    return <Input />;
+    return <Input type={"password"} />;
   },
 };
 </script>
